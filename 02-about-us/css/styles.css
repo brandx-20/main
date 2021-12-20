@@ -88,7 +88,7 @@ b.max-bold{ font-weight: 700; }
 2. COMMONS FOR PAGE DESIGN
 --------------------------------- */
 
-.section{ padding-top: 80px; padding-bottom: 50px; }
+.section{ padding-top: 80px; padding-bottom: 50px; background-color: #120F22;}
 
 .section .heading-area{ margin-bottom: 50px; }
 
@@ -96,15 +96,24 @@ b.max-bold{ font-weight: 700; }
 
 .right-area{ float: right; }
 
+
 .font-red{ color: #FE018F; }
 .font-white{ color: #FFFFFF; }
 .font-semi-white{ color: #ddd; }
 .font-black-lite{ color: #444; }
 .font-white-lite{ color: #999; }
 
-.margin-tb-10{ margin-top: 10px; margin-bottom: 10px; }
-.margin-tb-20{ margin-top: 20px; margin-bottom: 20px; }
-.margin-tb-30{ margin-top: 30px; margin-bottom: 30px; }
+.margin-tb-10{ margin-top: 10px; margin-bottom: 10px;}
+.margin-tb-20{ margin-top: 20px; margin-bottom: 20px;}
+.margin-tb-30{ margin-top: 30px; margin-bottom: 30px; color: #ddd;}
+
+.font-color {
+	color: #ddd;
+}
+.font-black {
+	color: rgb(153, 136, 136);
+}
+
 
 .margin-b-10{ margin-bottom: 10px; }
 .margin-b-20{ margin-bottom: 20px; }
@@ -359,15 +368,3 @@ footer .footer-section .title:after{ content:''; position: absolute; top: 5px; l
 	width: 12px; border-radius: 12px; background:  linear-gradient(15deg, #ff6a00 0%, #FE018F 100%); }
 
 
-
-
-
-
-
-
-
-
-
-
-
-	
